@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/iconos/css/all.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+<!-- Link Swiper's CSS -->
+ <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+ <!-- Animaciones CSS -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+ />
+</head>
+<body>
+    <header>
+        <div class="container nav">
+            <div class="logo">
+            <h1><a href="#seccion1"><img src="imgs/Mi portafolio logo.svg" alt="Mi portafolio"></a></h1> <!--Para que me lleve a la sección1-->
+            </div> 
+            
+            <nav class="menu">
+                <ul>
+                    <li><a href="#seccion2">Habilidades</a></li> <!--Para que me lleve a la sección2-->
+                    <li><a href="#seccion3">Trabajos</a></li>  <!--Para que me lleve a la sección3-->
+                    <li><a href="#seccion4">Contacto</a></li>   <!--Para que me lleve a la sección3-->
+                </ul>
+            </nav>
+            </div>
+    </header>
+
+    <section class="section1" id="seccion1">
+        <div class="bienvenida">
+        <div class="primera_imagen">
+            <img src="imgs/1652761670839.jpg" alt="Retrato de Leidy">
+        </div>
+        <article class="introduccion">
+        <h2>¡Hola!</h2>
+        <h3>Soy Leidy</h3>
+        <h2>Diseñadora Gráfica</h2>
+        <p>Soy Leidy Stefanía, estudio Diseño Gráfico en la Universidad Católica Luis Amigó. Me apasiona todo 
+            lo relacionado al diseño y a la ilustración. Me interesa generar mensajes visuales que impacten de 
+            todas las formas posibles. Disfruto de aprender temas nuevos que me ayuden a mejorar mis proyectos 
+            y me permiten tener un mayor dominio.
+        </p>
+             <ul>
+                <li><a href="assets/Revista Fase Creativa.pdf">Revista</a></li>
+                <li><a href="assets/Diseño vectorial proyecto final.pdf">Publicaciones</a></li>
+            </ul>
+
+        </article>
+        </div>
+    </section>
+
+    <section class="section2" id="seccion2">
+        <div class="segunda">
+        <article class="educacion">
+            <h2>Educación</h2>
+            <p>Estudio Diseño Gráfico en la Universidad Católica Luis Amigó y me encuentro culminando
+                el quinto semestre. En estos años de formación he aprendido bastante acerca de distintos 
+                campos en el diseño como la Ilustración, Diseño editorial, Diseño de identidad corporativa 
+                y Diseño web. He disfrutado del proceso, ya sea trabajando individualmente o en equipo.
+            </p>
+        </article>
+        <div class="items">
+            <article class="item1">
+                <img src="imgs/emily-bernal-BM3U_D2lygo-unsplash.jpg" alt="Habilidades Técnicas">
+                <h2>Habilidades Técnicas</h2>
+                <p>Tengo conocimientos en algunos programas de Adobe como son: Illustrator, Photoshop e Indesign.</p>
+            </article>
+            <article class="item2">
+                <img src="imgs/balazs-ketyi-LPWl2pEVGKc-unsplash.jpg" alt="Habilidades personales">
+                <h2>Habilidades Personales</h2>
+                <p>Tengo habilidades como la creatividad, además de escucha activa y responsabilidad.</p>
+            </article>
+            <article class="item3">
+                <img src="imgs/hello-i-m-nik-v54wV0e2oFQ-unsplash.jpg" alt="Intereses">
+                <h2>Intereses</h2>
+                <p>Me gusta dibujar y pintar. También me interesa la ilustración digital. Mientras hago esto disfuto de
+                    escuchar música.</p>
+            </article>
+        </div>
+        </div>
+</section>
+
+<section class="section3" id="seccion3">
+    <div class="trabajos">
+        <h1>Mis trabajos</h1>
+        <p>Acá puedes ver una recopilación de mis mejores proyectos</p>
+
+         <!-- Swiper -->
+         <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="imgs/Cartas pre-prensa contornos_Mesa de trabajo 1.jpg" alt="Cartas pre-prensa"></div> <!--Aqui van las imagenes-->
+              <div class="swiper-slide"><img src="imgs/Presentación behance -07.jpg" alt="Mockup actiplus"></div>
+              <div class="swiper-slide"><img src="imgs/Portada de cuentos -05.jpg" alt="Portada de cuento infantil"></div>
+              <div class="swiper-slide"><img src="imgs/Presentación behance -8.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="imgs/Afiche_Leidy Stefanía Serna Vélez_Mesa de trabajo 1.jpg" alt="afiche Baby"></div>
+              <div class="swiper-slide"><img src="imgs/Teoria de la comunicación.jpg" alt="Teoria de la comunicación"></div>
+              <div class="swiper-slide"><img src="imgs/Poster pelicula _Mesa de trabajo 1.jpg" alt="Poster La Naranja Mecánica"></div>
+              <div class="swiper-slide"><img src="imgs/mentalik.jpg" alt="Juego de mesa mentalik"></div>
+              <div class="swiper-slide"><img src="imgs/Fotografia luces.jpg" alt="Fotografía luces" ></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="animate__animated animate__fadeOutDown animate__delay-2s 2s animate__slower	3s animate__infinite	infinite">
+            <a href="#seccion4"><i class="fa-solid fa-circle-chevron-down fa-2x"></i></a>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <section class="section4" id="seccion4">
+        <div class="contacto">
+            <h1>Contacto</h1>
+            <p>Acá podrás encontrar mis redes sociales y la ubicación de mi Universidad.</p>
+            <ul>
+        <div class="redes">
+            <ul>
+                <li><a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i>3234879002</a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i>@leidyssv</a></li>
+                <li><a href="https://www.google.com/intl/es-419/gmail/about/"><i class="fa-solid fa-envelope"></i>leidy.sernave@amigo.edu.co</a></li>
+            </ul>
+
+                <!--video-->
+                <!--Ubicacion-->
+    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.033200457465!2d-75.58591928474914!3d6.259357127912984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44291ace0905c5%3A0xa82ebb8889ab4dae!2sUniversidad%20Cat%C3%B3lica%20Luis%20Amig%C3%B3%20-%20Medell%C3%ADn!5e0!3m2!1ses!2sco!4v1652130703739!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div> 
+    </div>
+    </section>
+
+    <!-- Swiper JS --> <!--Ponerlo antes de cerrar el body-->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: "auto",
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+</script>
+</body>
+</html>
